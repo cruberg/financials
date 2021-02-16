@@ -1,2 +1,2 @@
 # guild
-Resources for Algorithmic Trading
+Python Resources for Algorithmic Trading
