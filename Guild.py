@@ -3,21 +3,12 @@ import io
 import requests
 import os
 import numpy as np
-import statsmodels.api as sm
-import statsmodels.tsa.stattools as ts
-from numpy import cumsum, log, polyfit, sqrt, std, subtract, dot
 import warnings
 import numpy as np
-import gc
-import scipy.stats as stats
-from datetime import datetime
-from datetime import timedelta
-import time
+from datetime import datetime, timedelta
 import warnings
 warnings.filterwarnings("ignore")
-import yagmail
 import yfinance as yf
-import swifter
 
 class Universe(object):
 
