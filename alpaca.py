@@ -68,7 +68,7 @@ class Universe(object):
 
         for c in sorted(chunks):
 
-            data = self.api.get_barset(c, 'day', limit = 252).df
+            data = self.api.get_barset(c, 'day', limit = lookback).df
             data = data.iloc[:, data.columns.get_level_values(1)=='close'].swaplevel(axis=1)
             data.columns = data.columns.droplevel()
             data = data.ffill()
