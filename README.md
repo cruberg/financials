@@ -1,5 +1,5 @@
 # guild
-Python Resources for Algorithmic Trading
+Shared Python Resources for Algorithmic Trading
 
 Goal: build foundational infrastructure for collaborative trading system development and deployment
 
