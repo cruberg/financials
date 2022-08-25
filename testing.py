@@ -23,4 +23,4 @@ df.KRC.dropna().shape
 
 
 
-prices.to_csv('C:/Users/ccrub/Documents/Personal/Trading/System/Prod/Output/ALPACAClosePrices_FULL.csv')
+prices.to_csv('ALPACAClosePrices_FULL.csv')
